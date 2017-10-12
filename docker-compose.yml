@@ -1,0 +1,15 @@
+
+version: '2'
+
+services:
+
+  down:
+    user: nobody
+    image: cyberdojo/down
+    container_name: down_server
+    build:
+      context: server
+      args:
+        - PORT=${CYBER_DOJO_DOWN_SERVER_PORT}
+    ports:
+      - ${CYBER_DOJO_DOWN_SERVER_PORT}:${CYBER_DOJO_DOWN_SERVER_PORT}

@@ -1,0 +1,14 @@
+#-----Ignore everything
+
+*
+
+#-----!Except these dirs
+
+!src
+!images
+
+#-----!Except these files
+
+!Gemfile
+!up.sh
+!down.ru
