@@ -4,7 +4,7 @@ version: '2'
 services:
 
   down:
-    user: nobody
+    user: root
     image: cyberdojo/down
     container_name: down_server
     build:
