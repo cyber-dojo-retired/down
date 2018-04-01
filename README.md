@@ -4,9 +4,9 @@ alt="cyber-dojo yin/yang logo" width="50px" height="50px"/>
 
 # cyberdojo/down docker image
 
-- A simple rack server to display a 'server down' message when upgrading
+- A simple rack service to display a 'server down' message when upgrading
 
-To build the down-app on the server:
+To build and run the down-app, on the server:
 
 ```
 curl -sSL https://get.docker.com/ | sh
